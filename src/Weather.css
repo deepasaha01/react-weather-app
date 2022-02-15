@@ -36,12 +36,8 @@
   line-height: 1;
 }
 
-.Weather img {
+.Weather canvas {
   color: rgb(33, 33, 33);
-  position: relative;
-  bottom: 20px;
   margin-right: 5px;
   font-weight: 400;
-  height: 64px;
-  width: 64px;
 }
