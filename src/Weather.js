@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Watch } from "react-loader-spinner";
 import WeatherForecast from "./WeatherForecast";
+import Footer from "./Footer";
 
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
@@ -64,6 +65,7 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinate} />
+        <Footer />
       </div>
     );
   } else {
