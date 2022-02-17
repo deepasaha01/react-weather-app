@@ -13,7 +13,7 @@ export default function Footer() {
       </a>{" "}
       and{" "}
       <a
-        href="https://github.com/deepasaha01/react-weather-app"
+        href="https://dreamy-pike-c89999.netlify.app"
         target="_blank"
         rel="noreferrer"
       >
